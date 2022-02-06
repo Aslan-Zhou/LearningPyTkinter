@@ -17,4 +17,4 @@ for j in range(len(sports)):
     Checkbutton(root,text=sports[j],variable=checkboxes[j]).grid(row=j+1,sticky=W)
 
 Button(root,text="确定",width=10,command=printInto).grid(row=j+1)
-mainloop(0)
+mainloop()
