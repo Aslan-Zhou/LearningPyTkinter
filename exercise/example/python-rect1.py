@@ -18,11 +18,12 @@ for i in range(random.randint(5, 1250)):
     pygame.time.delay(30)
     pygame.display.flip()
 
-running = True
-while running:
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            running = False
+if __name__ == '__main__':
+    running = True
+    while running:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                running = False
 
 pygame.quit()
 
