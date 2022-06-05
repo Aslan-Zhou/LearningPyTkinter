@@ -59,13 +59,3 @@ text.insert(END, "A Hundred miles, \n")
 text.focus_set()
 if __name__ == '__main__':
     mainloop()
-from tkinter import *
-
-root = Tk()
-root.title("17-")
-
-text = Text(root)
-text.pack()
-
-if __name__ == '__main__':
-    mainloop()

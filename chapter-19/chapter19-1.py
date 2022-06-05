@@ -17,14 +17,4 @@ for i in range(12):
 
 if __name__ == '__main__':
     mainloop()
-from tkinter import *
 
-root = Tk()
-root.title("ch19-")
-
-canvas = Canvas(root)
-
-canvas.pack()
-
-if __name__ == '__main__':
-    mainloop()

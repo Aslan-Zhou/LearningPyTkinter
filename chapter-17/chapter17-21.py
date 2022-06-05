@@ -38,13 +38,3 @@ text.insert(END, "A Hundred miles, \n")
 text.tag_configure("found", background="yellow")
 if __name__ == '__main__':
     mainloop()
-from tkinter import *
-
-root = Tk()
-root.title("17-")
-
-text = Text(root)
-text.pack()
-
-if __name__ == '__main__':
-    mainloop()

@@ -53,16 +53,3 @@ tree.grid(row=1, column=0, columnspan=5, padx=5, sticky=W+E+N+S)
 Button(root, text="Remove", command=removeItem).grid(row=2, column=2, padx=5, pady=3, sticky=W)
 if __name__ == '__main__':
     mainloop()
-from tkinter import *
-from tkinter.ttk import *
-
-root = Tk()
-root.title("ch18-")
-
-tree = Treeview(root)
-tree.heading("", text="")
-tree.insert("", index=END, text="", values="")
-tree.pack()
-
-if __name__ == '__main__':
-    mainloop()

@@ -10,13 +10,3 @@ canvas.create_rectangle(130, 10, 200, 80, fill='yellow', outline="blue")
 canvas.create_rectangle(210, 10, 300, 60, fill='green', outline='grey')
 if __name__ == '__main__':
     mainloop()
-from tkinter import *
-
-root = Tk()
-root.title("ch19-")
-
-canvas = Canvas(root)
-canvas.pack()
-
-if __name__ == '__main__':
-    mainloop()

@@ -17,13 +17,3 @@ for i in range(100):
     canvas.create_rectangle(x1, y1, x2, y2)
 if __name__ == '__main__':
     mainloop()
-from tkinter import *
-
-root = Tk()
-root.title("ch19-")
-
-canvas = Canvas(root)
-canvas.pack()
-
-if __name__ == '__main__':
-    mainloop()

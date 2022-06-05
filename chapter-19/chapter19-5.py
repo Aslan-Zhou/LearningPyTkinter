@@ -12,13 +12,3 @@ canvas.create_line(30, 230, 500, 230,width=10, stipple="info")
 
 if __name__ == '__main__':
     mainloop()
-from tkinter import *
-
-root = Tk()
-root.title("ch19-")
-
-canvas = Canvas(root)
-canvas.pack()
-
-if __name__ == '__main__':
-    mainloop()

@@ -27,13 +27,3 @@ text.insert(END, "You can hear the whistle blow\n")
 text.insert(END, "A Hundred miles, \n")
 if __name__ == '__main__':
     mainloop()
-from tkinter import *
-
-root = Tk()
-root.title("17-")
-
-text = Text(root)
-text.pack()
-
-if __name__ == '__main__':
-    mainloop()

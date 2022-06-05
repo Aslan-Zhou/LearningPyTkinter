@@ -15,13 +15,4 @@ canvas.create_line(30, 230, 500, 230, 265, 300, 30, 230,
 
 if __name__ == '__main__':
     mainloop()
-from tkinter import *
 
-root = Tk()
-root.title("ch19-")
-
-canvas = Canvas(root)
-canvas.pack()
-
-if __name__ == '__main__':
-    mainloop()
